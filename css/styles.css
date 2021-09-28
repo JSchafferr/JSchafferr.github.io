@@ -1,0 +1,13 @@
+h1 {
+  color: steelblue;
+}
+
+p {
+  color: seagreen;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
