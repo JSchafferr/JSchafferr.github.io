@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>James Schaffer's Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
   </head>
   <body>
     <header class="hero-box">
@@ -18,8 +19,61 @@
       </section>
       <section class="hero-text-box">
         <h1 class="hero-heading">James Schaffer's Portfolio</h1>
-        <p class="hero-text">Sup Dudes</p>
+        <p class="hero-text">The Earth Without "Art" is "Eh"</p>
       </section>
     </header>
+    <!-- Begin Portfolio Gallery -->
+    <section class="portfolio-gallery">
+      <h1>Portfolio</h1>
+      <div class="gallery-item">
+        <a href="img/IMG_20200607_231131_327.jpg" class="glightbox">
+          <img
+            src="img/IMG_20200607_231131_327.jpg"
+            alt="Oil Painting of Bust with Head Missing"
+            class="gallery-img"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="img/IMG_20200624_234605_287.jpg" class="glightbox">
+          <img
+            src="img/IMG_20200624_234605_287.jpg"
+            alt="Graphite Drawing of Flower"
+            class="gallery-img"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="img/20201201_143037.jpg" class="glightbox">
+          <img
+            src="img/20201201_143037.jpg"
+            alt="Golden Retriever"
+            class="gallery-img"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="img/20210901 Schaffer James Collage 8.jpg" class="glightbox">
+          <img
+            src="img/20210901 Schaffer James Collage 8.jpg"
+            alt="Collage of Boxing Gloves with Hands"
+            class="gallery-img"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="img/20211024_150459_5 (1).jpg" class="glightbox">
+          <img
+            src="img/20211024_150459_5 (1).jpg"
+            alt="Graphite Drawing of Paper Bag"
+            class="gallery-img"
+          />
+        </a>
+      </div>
+    </section>
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const glightbox = GLightbox({ loop: true });
+    </script>
   </body>
 </html>
