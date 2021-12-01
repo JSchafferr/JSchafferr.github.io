@@ -204,6 +204,7 @@ img {
 
 .portfolio-container {
   margin: 1rem auto 0 auto;
+  padding-bottom: 2rem;
 }
 
 .portfolio-gallery {
@@ -239,7 +240,7 @@ img {
 .about-container {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 1rem auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .about-text {
